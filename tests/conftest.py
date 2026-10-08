@@ -1,7 +1,7 @@
 import os
 import shutil
 
-# Use a separate database and folder for tests (set BEFORE importing the app)
+# Use a separate database and folder for tests 
 os.environ["DATABASE_URL"] = "sqlite:///./test.db"
 os.environ["CERT_DIR"] = "test_certificates"
 
